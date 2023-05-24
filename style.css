@@ -1,0 +1,169 @@
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: rgb(7, 235, 37);
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: gray;
+  color: black;
+}
+
+.active2 {
+  background-color: #04AA6D;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: rgba(77, 80, 77, 0.562);
+  color: white;
+}
+
+  .com {
+    width: 100%;
+    height: 50%;
+    background-color: #111;
+  }
+
+  h1 {
+    background-color: gray;
+    border-radius: 0 40px 0 40px;
+    text-align: center;
+    text-decoration-style: double;
+    border-color: black;
+  }
+  
+  .img {
+      border-radius: 20px;
+      float:unset;
+      width: 20px;
+      height: 20px;
+  }
+  
+  img {
+    border-radius: 20px;
+    float:unset;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .paragraph {
+    background-color: blue;
+  }
+  
+  p {
+    color: white
+  }
+  
+  .bgmobile {
+    width: 100px;
+    padding: 10px;
+    float: right;
+  }
+  
+  .how {
+    width: 100px;
+    padding: 10px;
+    float: right;
+  }
+
+  .link {
+    background-color: white;
+  }
+
+  .question {
+    background-color: #18d3aa;
+    border-radius: 20px;
+    text-align: center;
+  }
+
+  .buttom {
+    background-color: black;
+    text-align: center;
+    text-decoration: none;
+  }
+
+ .buttom a {
+   color: white;
+   display: block;
+   font-size: 17px;
+   text-decoration: none;
+ }
+
+ .faicon a {
+   display: inline;
+   text-align: center;
+   color: white;
+   text-decoration: none;
+ }
+
+ .fa-whatsapp {
+   background-color: #40f00a;
+ }
+
+.fa-linkedin {
+background-color: #007bb5;
+}
+
+.faicon a {
+ padding: 0px;
+ font-size: 30px;
+ width: 50px;
+ text-align: center;
+ text-decoration: none;
+ margin: 5px 2px;
+}
+
+.button {
+text-decoration: none;
+border: none;
+outline: 0;
+display: inline-block;
+padding: 8px;
+color: rgb(22, 4, 4);
+background-color: #40f00a;
+text-align: center;
+cursor: pointer;
+width: 100%;
+}
+
+ .coppyright {
+  color: white;
+ }
+
+ hr.solid {
+  border-top: 3px solid blue;
+ }
+
+ p {
+  font-size: larger;
+ }
+
+
+ 
+
