@@ -73,7 +73,7 @@
   }
   
   .paragraph {
-    background-color: blue;
+    background-color: goldenrod;
   }
 
   .paragraph video {
@@ -83,8 +83,14 @@
   }
   
   p {
-    color: white
+    color: black;
+    font-weight: bold;
   }
+
+.firstlist {
+  font-weight: bolder;
+  color: blue;
+}
   
   .bgmobile {
     width: 100px;
