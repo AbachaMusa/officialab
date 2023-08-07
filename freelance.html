@@ -13,6 +13,16 @@
           font-size: large;
           font-family: Arial, Helvetica, sans-serif;
         }
+
+        .darkMode {
+          background-color: black;
+          color: white;
+        }
+
+        .bt5 {
+          text-align: center;
+          border-radius: 20px;
+        }
         
         .header {
           background-color: #f1f1f1;
@@ -166,6 +176,7 @@
     <a href="index.html"><i class="fa fa-fw fa-home"></i>Home</a>
     <a href="About.html"><i class="fa fa-fw fa-wrench"></i>About</a>
     <a href="Contact.html"><i class="fa fa-fw fa-envelope"></i>Contact</a>
+    <a><button class="bt5" onclick="darkMode()">toggle</button></a>
   </div>
   <div id="navbar">
   </div>
@@ -276,6 +287,11 @@
     } else {
       navbar.classList.remove("sticky");
     }
+  }
+
+  function darkMode() {
+    const el = document.querySelector("body")
+    el.classList.toggle("darkMode")
   }
   </script>
   
