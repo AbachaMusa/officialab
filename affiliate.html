@@ -119,6 +119,16 @@
         p {
             font-size: larger;
         }
+
+                .darkMode {
+          background-color: black;
+          color: white;
+        }
+
+                .bt5 {
+          text-align: center;
+          border-radius: 20px;
+        }
     </style>
 </head>
 <body>
@@ -127,6 +137,7 @@
         <a href="index.html"><i class="fa fa-fw fa-home"></i> Home</a>
         <a href="About.html"><i class="fa fa-fw fa-wrench"></i> About</a> 
         <a href="Contact.html"><i class="fa fa-fw fa-envelope"></i>Contact</a> 
+        <a><button class="bt5" onclick="darkMode()">toggle</button></a>
       </div>
       <a class="current" href="affiliate.html">Affiliate Marketing Accelerate Program</a>
       <img class="earn" src="earnow1.jpeg">
@@ -211,5 +222,11 @@
             </div>
         </footer>
     </p>
+    <script>
+    function darkMode() {
+    const el = document.querySelector("body")
+    el.classList.toggle("darkMode")
+  }
+    </script>
 </body>
 </html>
