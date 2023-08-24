@@ -116,13 +116,13 @@
 
   .buttom {
     background-color: black;
-    text-align: center;
-    text-decoration: none;
+    display: grid;
+  grid-template-columns: 1fr 1fr;
   }
 
  .buttom a {
    color: white;
-   display: block;
+  text-align: center;
    font-size: 17px;
    text-decoration: none;
  }
