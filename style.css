@@ -182,6 +182,12 @@ width: 100%;
   color: palevioletred;
  }
 
+@media screen and (min-width: 650px) {
+  body {
+    margin: 200px;
+  }
+}
+
 
  
 
